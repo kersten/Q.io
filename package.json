@@ -1,0 +1,42 @@
+{
+    "name"   : "Q.io",
+    "version": "0.0.1",
+
+    "author"     : "MHP Software GmbH <support@mhp-net.de>",
+    "description": "A message queuing service based on amazons sqs",
+
+    "contributors": [
+        {
+            "name" : "Kersten Burkhardt",
+            "email": "kerstenk@gmail.com"
+        },
+        {
+            "name" : "Pierre Schubert",
+            "email": "schubert@mhp-net.de"
+        }
+    ],
+
+    "repository": {
+        "type": "git",
+        "url" : "git://github.com/kersten/Q.io.git"
+    },
+
+    "scripts": {
+        "test": "mocha test/*.js"
+    },
+
+    "dependencies": {
+        "awssum"    : "*",
+        "underscore": "*"
+    },
+
+    "analyze": false,
+
+    "devDependencies": {
+    },
+
+    "license": "Closed Source",
+    "engines": {
+        "node": ">=0.8.x"
+    }
+}
