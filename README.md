@@ -24,7 +24,7 @@ Create Q.io
 
 Process jobs on a queue
 
-    var Q = require("../../Q.io"),
+    var Q = require("Q.io"),
         q = new Q.io({
             accessKeyId    : "xxx",
             secretAccessKey: "xxx",
